@@ -63,7 +63,7 @@ export default function NavBar () {
           justify-center
           items-center
           gap-y-32
-          text-4xl
+          text-3xl
           capitalize
           `
           }>
