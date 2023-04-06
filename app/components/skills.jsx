@@ -6,7 +6,7 @@ import Card from './card'
 
 export default function Skills() {
     return (
-        <section id='skills' className='w-full flex flex-col items-center gap-4 mb-24'>
+        <section id='skills' className='w-full flex flex-col items-center gap-4 mb-24 min-[805px]:pt-36'>
             <h1 className='text-7xl font-PlayfairDisplay font-bold mb-8'>Skills</h1>
                 <div className='grid-container grid grid-cols-2 gap-x-16 gap-y-4'>
                     <Card
