@@ -4,8 +4,8 @@ export default function AboutMe() {
     return (
     <section id='aboutMe' className='mb-12 min-[805px]:pt-60'>
           <div className='grid grid-cols-1 grid-rows-3 gap-y-5'>
-            <h1 className={`font-PlayfairDisplay text-[3.6rem] max-[414px]:text-[3rem] max-[300px]:text-[2rem] leading-snug font-semibold text-center flex flex-col`}>
-            <span>Hello<span className='font-OpenSans'>!</span> I'm </span><span className='text-color10 text-7xl max-[414px]:text-6xl max-[300px]:text-[2.6rem]'>Arquímedes V.</span> a self taught web developer.
+            <h1 className={`font-PlayfairDisplay text-[3.6rem] max-[414px]:text-[3rem] max-[354px]:text-[2rem] leading-snug font-semibold text-center flex flex-col`}>
+            <span>Hello<span className='font-OpenSans'>!</span> I'm </span><span className='text-color10 text-7xl max-[414px]:text-6xl max-[354px]:text-[2.6rem]'>Arquímedes V.</span> a self taught web developer.
             </h1>
             <div className='grid grid-rows-1 grid-cols-2 w-full justify-items-center items-center'>
             <a href="https://www.linkedin.com/in/arquimedes-vasquez-668964238/" target={'_blank'} rel='noopener noreferrer'>
