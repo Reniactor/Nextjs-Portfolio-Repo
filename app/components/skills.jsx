@@ -8,7 +8,7 @@ export default function Skills() {
     return (
         <section id='skills' className='w-full flex flex-col items-center gap-4 mb-24 min-[805px]:pt-36'>
             <h1 className='text-7xl font-PlayfairDisplay font-bold mb-8'>Skills</h1>
-                <div className='grid-container grid grid-cols-2 gap-x-14 gap-y-4 max-[377px]:gap-x-3 max-[377px]:gap-y-[4rem]'>
+                <div className='grid-container grid grid-cols-2 gap-x-14 gap-y-4 max-[377px]:gap-x-3 max-[377px]:gap-y-[4rem] w-full'>
                     <Card
                     icon={<DiReact className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
                     name='ReactJs'
