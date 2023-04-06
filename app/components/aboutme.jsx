@@ -2,7 +2,7 @@ import { BsGithub, BsLinkedin } from 'react-icons/bs'
 
 export default function AboutMe() {
     return (
-    <section id='aboutMe' className='mb-12'>
+    <section id='aboutMe' className='mb-12 min-[805px]:pt-60'>
           <div className='grid grid-cols-1 grid-rows-3 gap-y-5'>
             <h1 className={`font-PlayfairDisplay text-[3.6rem] leading-snug font-semibold text-center flex flex-col`}>
             <span>Hello<span className='font-OpenSans'>!</span> I'm </span><span className='text-color10 text-7xl'>Arquímedes V.</span> a self taught web developer.
@@ -15,7 +15,7 @@ export default function AboutMe() {
               <BsGithub className='text-color10 h-28 w-auto hover:text-color30'/>
             </a>
             </div>
-            <p className={`font-RobotoSerif text-3xl font-light text-center`}>
+            <p className={`font-RobotoSerif text-3xl font-light text-center min-[805px]:w-1/2 min-[805px]:justify-self-center`}>
             I strive to deliver an excellent product, it’s a top priority for me to provide a balance between a robust <span className='text-color10'>UX</span> and an appealing <span className='text-color10'>UI</span>.
             </p>
           </div>
