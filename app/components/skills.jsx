@@ -12,12 +12,12 @@ export default function Skills() {
                     <Card
                     icon={<DiReact className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
                     name='ReactJs'
-                    description='1.5 years of experience (As a matter of fact, this page was built with it!)'
+                    description='3 years of experience (As a matter of fact, this page was built with it!)'
                     />
                     <Card
                     icon={<TbBrandNextjs className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
                     name='NextJs'
-                    description='1 year of experience (This page also used NextJs, along with tailwindcss)'
+                    description='1 year of experience (This page also used NextJs, along with TailWindCss)'
                     />
                     <Card
                     icon={<DiHtml5 className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
