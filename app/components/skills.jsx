@@ -12,7 +12,7 @@ export default function Skills() {
                     <Card
                     icon={<DiReact className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
                     name='ReactJs'
-                    description='3 years of experience (As a matter of fact, this page was built with it!)'
+                    description='1.5 years of experience (As a matter of fact, this page was built with it!)'
                     />
                     <Card
                     icon={<TbBrandNextjs className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]"/>}
