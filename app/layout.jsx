@@ -1,26 +1,16 @@
-import './globals.css'
-import NavBar from './components/navbar'
-import AboutMe from './components/aboutme'
-import Skills from './components/skills'
-import ContactMe from './components/contactme'
-import Footer from './components/footer'
+import "./globals.css";
 
 export const metadata = {
-  title: 'Arquimedes Portfolio',
-  description: 'Created by Arquimedes Vasquez',
-}
+  title: "Arquimedes Portfolio",
+  description: "Created by Arquimedes Vasquez",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className='scroll-smooth'>
-      <body className='text-color30 bg-color60 flex flex-col items-center'>
-        <NavBar/>
-          <AboutMe />
-          <Skills />
-          <ContactMe />
-          <Footer />
+    <html lang="en" className="scroll-smooth">
+      <body className="text-color30 bg-color60 flex flex-col items-center">
         {children}
       </body>
     </html>
-  )
+  );
 }

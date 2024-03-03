@@ -54,6 +54,7 @@ export default function NavBar() {
       <button
         onClick={handleClick}
         className={`fixed z-50 top-[10px] right-[10px] duration-200`}
+        aria-label="menu-button"
       >
         <CgMenuGridR
           className={`min-[805px]:hidden fixed top-2 right-2 w-8 h-auto ${
@@ -68,6 +69,7 @@ export default function NavBar() {
           w-1/2 
           transition-all 
           translate-x-[400px] 
+          font-mono
           false 
           z-40 
           top-0
@@ -80,7 +82,7 @@ export default function NavBar() {
           items-center
           gap-y-32
           text-3xl
-          capitalize
+          lowercase
           min-[805px]:w-2/3
           min-[805px]:flex-row
           min-[805px]:justify-between

@@ -16,8 +16,8 @@ export default function Skills() {
       id="skills"
       className="w-full flex flex-col items-center gap-4 mb-24 min-[805px]:pt-36"
     >
-      <h1 className="text-7xl font-PlayfairDisplay font-bold mb-8">Skills</h1>
-      <div className="grid-container grid grid-cols-2 gap-x-14 gap-y-4 max-[377px]:gap-x-3 max-[378px]:gap-y-[4rem] max-[378px]:grid-cols-1 w-full">
+      <h1 className="text-7xl font-RobotoSerif font-bold mb-8">Skills</h1>
+      <summary className="grid-container grid grid-cols-2 gap-x-14 gap-y-4 max-[377px]:gap-x-3 max-[378px]:gap-y-[4rem] max-[378px]:grid-cols-1 w-full">
         <Card
           icon={
             <DiReact className="text-color10 w-[4.5rem] h-auto min[805px]:w-[7.8rem] max-[414px]:w-[3rem] max-[300px]:w-[2.5rem]" />
@@ -74,7 +74,7 @@ export default function Skills() {
           name="MongoDB"
           description="0.7 years of experience. Lowest experience since i haven't had the opportunity to use it as often"
         />
-      </div>
+      </summary>
     </section>
   );
 }

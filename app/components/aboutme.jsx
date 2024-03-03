@@ -5,12 +5,12 @@ export default function AboutMe() {
     <section id="aboutMe" className="mb-12 min-[805px]:pt-60">
       <div className="grid grid-cols-1 grid-rows-3 gap-y-5">
         <h1
-          className={`font-PlayfairDisplay text-[3.6rem] max-[414px]:text-[3rem] max-[354px]:text-[2rem] leading-snug font-semibold text-center flex flex-col`}
+          className={`font-RobotoSerif text-[3.6rem] max-[414px]:text-[3rem] max-[354px]:text-[2rem] leading-snug font-medium text-center flex flex-col`}
         >
           <span>
             Hello<span className="font-OpenSans">!</span> I'm{" "}
           </span>
-          <span className="text-color10 text-7xl max-[414px]:text-6xl max-[354px]:text-[2.6rem]">
+          <span className="text-color10 text-7xl max-[414px]:text-6xl max-[354px]:text-[2.6rem] font-semibold">
             Arquímedes V.
           </span>{" "}
           a self taught web developer.
@@ -22,7 +22,7 @@ export default function AboutMe() {
             rel="noopener noreferrer"
             aria-label="LinkedIn-Personal-Website"
           >
-            <BsLinkedin className="text-color10 h-28 w-auto hover:text-color30 max-[414px]:h-16 max-[300px]:h-12" />
+            <BsLinkedin className="text-color10 h-28 w-auto hover:text-color30 max-[414px]:h-16 max-[300px]:h-12 duration-300" />
           </a>
           <a
             href="https://github.com/Reniactor"
@@ -30,11 +30,11 @@ export default function AboutMe() {
             rel="noopener noreferrer"
             aria-label="Github-Profile"
           >
-            <BsGithub className="text-color10 h-28 w-auto hover:text-color30 max-[414px]:h-16 max-[300px]:h-12" />
+            <BsGithub className="text-color10 h-28 w-auto hover:text-color30 max-[414px]:h-16 max-[300px]:h-12 duration-300" />
           </a>
         </div>
         <p
-          className={`font-RobotoSerif text-3xl max-[414px]:text-2xl max-[300px]:text-xl px-2 font-light text-center min-[805px]:w-1/2 min-[805px]:justify-self-center`}
+          className={`font-RobotoSerif text-3xl max-[414px]:text-2xl max-[300px]:text-xl px-2 font-light text-center min-[805px]:w-[786px] min-[805px]:justify-self-center`}
         >
           I strive to deliver an excellent product, it’s a top priority for me
           to provide a balance between a robust{" "}

@@ -16,10 +16,13 @@
     "@netlify/plugin-nextjs": "^4.33.0",
     "@next/font": "^13.2.4",
     "@react-icons/all-files": "^4.1.0",
+    "firebase": "^9.22.1",
+    "firebaseui": "^6.0.2",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
